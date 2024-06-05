@@ -1,5 +1,4 @@
 import React from "react";
-import "../home/Home.css";
 import Hero from "./hero/Hero";
 import SubHero from "./subhero/SubHero";
 import Products from "./products/Products";
