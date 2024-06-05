@@ -1,0 +1,79 @@
+.products {
+    text-align: left;
+    padding: 50px 17% 25px 17%;
+    background: url("../../../assets/peace-reverse-01.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
+}
+
+.products h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #163135;
+    padding-bottom: 50px;
+}
+
+.productsList {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.productsList .buttonAll {
+    padding: 9px 32px;
+    border: none;
+    border-radius: 30px;
+    background-color: #163135;
+    color: white;
+    cursor: pointer;
+}
+
+.productsList .listButton {
+    padding: 5px 10px 5px 6px;
+    border: 1px solid #163135;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #163135;
+    font-size: 0.92rem;
+    font-weight: 500;
+}
+
+.listButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.listButton img {
+    width: 25px;
+}
+
+.productsCardList {
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.showMore {
+    text-align: center;
+}
+
+.showMoreButton {
+    font-size: 0.92rem;
+    background-color: #c5855d;
+    border: none;
+    color: white;
+    padding: 9px 36px;
+    border-radius: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}

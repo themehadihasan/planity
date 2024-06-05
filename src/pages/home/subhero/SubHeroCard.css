@@ -1,0 +1,45 @@
+.subHeroCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subHeroCardLeft {
+    padding: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subHeroCardLeft p {
+    font-size: 0.92rem;
+}
+
+.subHeroCardLeft h3 {
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.subHeroCardLeft h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.subHeroCardLeft button {
+    font-size: 0.92rem;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+} 
+
+.subHeroCardRight {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.subHeroCardRight img {
+    height: 100%;
+    object-fit: cover;
+}

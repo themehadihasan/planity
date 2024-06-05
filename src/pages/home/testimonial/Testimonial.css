@@ -1,0 +1,40 @@
+.testimonial {
+    padding: 0 17% 25px 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonialLeft {
+    width: 50%;
+    
+}
+
+.testimonialLeft h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #163135;
+    padding-bottom: 50px;
+}
+
+.testimonialLeft p {
+    font-size: 0.92rem;
+    padding-bottom: 25px;
+}
+
+.testimonialLeft h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #163135;
+}
+
+.testimonialRight {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.testimonialRight img {
+    width: 100%;
+}

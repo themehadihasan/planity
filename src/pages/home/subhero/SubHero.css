@@ -1,0 +1,54 @@
+.subHero {
+    text-align: center;
+    padding: 50px 17% 25px 17%;
+}
+
+.subHero h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #163135;
+}
+
+.subHeroContent {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subHeroLeft {
+    width: 60%;
+    background-color: #ead9cf;
+    height: 270px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.subHeroRight {
+    width: 40%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subHeroRightTop {
+    height: 130px;
+    background-color: #e5eae2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.subHeroRightBottom {
+    height: 130px;
+    background-color: #163135;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
