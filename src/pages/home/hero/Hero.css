@@ -1,14 +1,26 @@
 .hero {
-    padding: 0 0 25px 10%;
-    background: #f6f6f6;
+    padding: 0 0 25px 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
 }
+
+.lineBackground {
+    position: absolute;
+    z-index: -1;
+    padding-right: 5%;
+}
+
+.lineBackground img {
+    width: 100%;
+    object-fit: contain;
+} 
 
 .heroLeft {
     width: 30%;
-    padding: 10px 50px 10px 0;
+    padding: 15px 50px 10px 0;
+    margin-left: 10%;
 }
 
 .heroLeft h1 {
@@ -42,7 +54,7 @@
 
 .heroRight {
     width: 70%;
-    background-color: #e5eae2;
+    background: rgba(229, 234, 226, 0.4);
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     height: 475px;
@@ -70,7 +82,7 @@
     border-radius: 20px;
     padding: 10px 12px 10px 17px;
     margin-left: -110px;
-    margin-top: 200px;
+    margin-top: 215px;
 }
 
 .shortCardContent h4 {
