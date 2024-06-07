@@ -80,9 +80,14 @@
 
 @media (width <= 992px) {
     .products {
+        background-size: 250px;
+    }
+}
+
+@media (width <= 768px) {
+    .products {
         padding-left: 10%;
         padding-right: 10%;
-        background-size: 250px;
     }
 }
 

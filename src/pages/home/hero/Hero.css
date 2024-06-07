@@ -131,20 +131,24 @@
 
     .heroLeft {
         width: 100%;
-        padding-right: 0;
-    }
-
-    .heroLeft p {
-        padding-right: 175px;
+        padding-right: 250px;
     }
 
     .heroRight {
         width: 100%;
         align-items: left;
         margin-left: 10%;
+        margin-right: 10%;
     }
 
     .heroRightLeft img {
         margin-left: -90px;
     }
+}
+
+@media (width <= 768px) {
+    .heroLeft {
+        padding-right: 150px;
+    }
+    
 }

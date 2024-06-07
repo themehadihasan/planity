@@ -8,6 +8,7 @@
 .headerLeft {
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 
 .headerLeft img {
@@ -41,7 +42,6 @@
     border-bottom: 2px solid #163135;
 }
 
-
 .headerRight button {
     padding: 9px 36px;
     border: none;
@@ -57,4 +57,5 @@
     .headerMiddle {
         display: none;
     }
+
 }
