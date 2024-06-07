@@ -12,16 +12,18 @@ const Hero = () => {
           <img src={LineImage} alt="Line Image" />
         </div>
         <div className="heroLeft">
-          <h1>
-            Make your <br /> home <br />
-            <span>beautiful</span> <br />
-            with plants
-          </h1>
-          <p>
-            A cozy home is a home decorated with the freshness of green and
-            fresh plants, come on, check out all our plants, don't run out.
-          </p>
-          <button>Learn More</button>
+          <div className="heroLeftContent">
+            <h1>
+              Make your <br /> home <br />
+              <span>beautiful</span> <br />
+              with plants
+            </h1>
+            <p>
+              A cozy home is a home decorated with the freshness of green and
+              fresh plants, come on, check out all our plants, don't run out.
+            </p>
+            <button>Learn More</button>
+          </div>
         </div>
         <div className="heroRight">
           <div className="heroRightLeft">

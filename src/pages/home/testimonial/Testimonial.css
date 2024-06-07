@@ -38,3 +38,9 @@
 .testimonialRight img {
     width: 100%;
 }
+
+@media (width <= 992px) {
+    .testimonial {
+        padding: 75px 10% 25px 10%;
+    }
+}

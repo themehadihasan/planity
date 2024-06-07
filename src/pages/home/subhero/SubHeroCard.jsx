@@ -4,22 +4,33 @@ import "./SubHeroCard.css";
 const SubHeroCard = ({
   subTitle,
   title,
-  priceStart,
-  price,
+  priceStart = "",
+  price = "",
   buttonText,
   image,
 }) => {
   return (
     <div className="subHeroCard">
       <div className="subHeroCardLeft">
-        <p>{subTitle}</p>
-        <h3>{title}</h3>
-        <div>
-          <h4 style={{ fontSize: "1.15rem" }}>
-            {priceStart} <b>{price}</b>
-          </h4>
+        <div className="subHeroCardLeftContent">
+          <p>{subTitle}</p>
+          <h3>{title}</h3>
+          <div>
+            <h4
+              style={{
+                fontSize: "1.15rem",
+                background: "#d6c5bb",
+                display: "inline",
+                borderRadius: "20px",
+              }}
+            >
+              {priceStart} <b>{price}</b>
+            </h4>
+          </div>
         </div>
-        <button>{buttonText}</button>
+        <div>
+          <button>{buttonText}</button>
+        </div>
       </div>
       <div className="subHeroCardRight">
         <img src={image} alt="Roses" />

@@ -1,6 +1,8 @@
 .subHero {
     text-align: center;
     padding: 75px 17% 25px 17%;
+    display: flex;
+    flex-direction: column;
 }
 
 .subHero h1 {
@@ -20,15 +22,18 @@
 .subHeroLeft {
     width: 60%;
     background-color: #ead9cf;
-    height: 270px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
 }
 
+.subHeroLeftContent {
+    height: 270px;
+    display: flex;
+}
+
 .subHeroRight {
     width: 40%;
-    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,3 +57,23 @@
     justify-content: center;
 }
 
+@media (width <= 992px) {
+    .subHeroContent {
+        flex-direction: column;
+    }
+
+    .subHeroLeft {
+        width: 100%;
+    }
+
+    .subHeroRight {
+        width: 100%;
+    }
+}
+
+@media (width <= 768px) {
+    .subHero {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

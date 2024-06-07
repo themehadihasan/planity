@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     padding-bottom: 25px;
+    padding-right: 17%;
 }
 
 .featuresLeft {
@@ -29,4 +30,10 @@
 
 .featuresRight p {
     font-size: 0.92rem;
+}
+
+@media (width <= 992px) {
+    .features {
+        padding: 75px 10% 25px 0;
+    }
 }

@@ -10,14 +10,12 @@ const Features = () => {
       </div>
       <div className="featuresRight">
         <h1>
-          We have made the <br />
-          beauty of plants one of <br />
-          the most beautiful <br />
-          features in your home.
+          We have made the beauty of plants one of the most beautiful features
+          in your home.
         </h1>
         <p>
-          A cozy home is a home that in decorated with the freshness <br /> of
-          green and fresh plants.
+          A cozy home is a home that in decorated with the freshness of green
+          and fresh plants.
         </p>
       </div>
     </div>

@@ -11,14 +11,16 @@ const SubHero = () => {
       <h1>New arrivals in this week</h1>
       <div className="subHeroContent">
         <div className="subHeroLeft">
-          <SubHeroCard
-            subTitle="Big Sale Product"
-            title="Plant for Interior Decoration"
-            priceStart="Start From"
-            price="$320"
-            buttonText="SHOP NOW"
-            image={Roses}
-          />
+          <div className="subHeroLeftContent">
+            <SubHeroCard
+              subTitle="Big Sale Product"
+              title="Plant for Interior Decoration"
+              priceStart="Start From"
+              price="$320"
+              buttonText="SHOP NOW"
+              image={Roses}
+            />
+          </div>
         </div>
         <div className="subHeroRight">
           <div className="subHeroRightTop">
