@@ -37,3 +37,22 @@
         padding: 75px 10% 25px 0;
     }
 }
+
+@media (width <= 576px) {
+    .features {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 25px;
+    }
+
+    .featuresLeft {
+        width: 100%;
+    }
+
+    .featuresRight {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

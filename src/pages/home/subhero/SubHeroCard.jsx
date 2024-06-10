@@ -15,15 +15,8 @@ const SubHeroCard = ({
         <div className="subHeroCardLeftContent">
           <p>{subTitle}</p>
           <h3>{title}</h3>
-          <div>
-            <h4
-              style={{
-                fontSize: "1.15rem",
-                background: "#d6c5bb",
-                display: "inline",
-                borderRadius: "20px",
-              }}
-            >
+          <div className="priceTag">
+            <h4>
               {priceStart} <b>{price}</b>
             </h4>
           </div>

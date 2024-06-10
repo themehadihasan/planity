@@ -11,7 +11,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
 }
 
 .subHeroCardLeftContent {
@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: left;
 }
 
 .subHeroCardLeft p {
@@ -30,9 +31,12 @@
     font-weight: 500;
 }
 
-.subHeroCardLeft h4 {
-    font-size: 1rem;
+.priceTag h4 {
+    font-size: 1.15rem;
     font-weight: 500;
+    display: inline;
+    background-color: #d6c5bb;
+    border-radius: 20px;
 }
 
 .subHeroCardLeft button {
@@ -53,5 +57,29 @@
 
 .subHeroCardRight img {
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+@media (width <= 576px) {
+    .subHeroCardLeft {
+        width: 60%;
+    }
+
+    .subHeroCardRight {
+        width: 40%;
+        padding-top: 25px;
+    }
+
+    .subHeroCardLeft p {
+        font-size: 0.75rem;
+    }
+    
+    .subHeroCardLeft h3 {
+        font-size: 1.25rem;
+    }
+
+    .priceTag h4 {
+        font-size: 1rem;
+    }
+    
 }

@@ -79,3 +79,22 @@
         padding-right: 10%;
     }
 }
+
+@media (width <= 576px) {
+    .subHero {
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: center;
+    }
+
+    .subHeroLeftContent {
+        height: 270px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .subHeroRightTop {
+        
+    }
+}

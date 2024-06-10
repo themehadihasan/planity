@@ -152,3 +152,24 @@
     }
     
 }
+
+@media (width <= 576px) {
+    .heroLeft {
+        padding-right: 0;
+
+    }
+
+    .heroRight {
+        margin-right: 0;
+    }
+
+    .heroRightLeft img {
+        width: 400px;
+        margin-left: -50px;
+    }
+
+    .shortCard {
+        margin-left: -310px;
+        margin-top: 200px;
+    }
+}
