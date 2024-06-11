@@ -1,6 +1,6 @@
 import React from "react";
 import "./SubHero.css";
-import Roses from "../../../assets/roses.png";
+import Roses from "../../../assets/roses-02.png";
 import Monsera from "../../../assets/monsera01.png";
 import GradenPlant from "../../../assets/peace-reverse.png";
 import SubHeroCard from "./SubHeroCard";

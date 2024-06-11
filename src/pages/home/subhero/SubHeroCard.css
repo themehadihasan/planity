@@ -7,7 +7,7 @@
 
 .subHeroCardLeft {
     height: 100%;
-    padding: 25px;
+    padding: 25px 0 25px 25px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -62,12 +62,13 @@
 
 @media (width <= 576px) {
     .subHeroCardLeft {
-        width: 60%;
+        width: 50%;
     }
 
     .subHeroCardRight {
-        width: 40%;
+        width: 50%;
         padding-top: 25px;
+        padding-right: 40px;
     }
 
     .subHeroCardLeft p {
