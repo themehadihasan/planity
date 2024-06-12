@@ -35,7 +35,7 @@
     font-size: 1.15rem;
     font-weight: 500;
     display: inline;
-    background-color: #d6c5bb;
+    /* background-color: #d6c5bb; */
     border-radius: 20px;
 }
 
@@ -81,6 +81,7 @@
 
     .priceTag h4 {
         font-size: 1rem;
+        background-color: transparent;
     }
     
 }
